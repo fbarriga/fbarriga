@@ -1,0 +1,18 @@
+C-a
+	k - kill pane buffer
+	r - reload config
+
+	w - list windows on session
+	s - list all windows
+	c - create new window
+	, - rename window
+
+	v - split window vertically
+	h - split window horizontally
+
+	z - Zoom current pane
+	P - Save scrollback to file
+
+	PageUp   - copy mode
+	Arrows   - move between panes
+	C-Arrows - resize panes
