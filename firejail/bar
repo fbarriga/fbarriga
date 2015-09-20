@@ -1,0 +1,7 @@
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/suid-debug", F_OK)         = -1 ENOENT (No such file or directory)
+execve("/usr/bin/ping", [
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libcap.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3

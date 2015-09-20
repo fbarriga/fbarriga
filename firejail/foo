@@ -1,0 +1,9 @@
+execve("/usr/bin/ping", ["ping", "2"], [/* 52 vars */]) = 0
+access("/etc/suid-debug", F_OK)         = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libcap.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+connect: Invalid argument
++++ exited with 2 +++
